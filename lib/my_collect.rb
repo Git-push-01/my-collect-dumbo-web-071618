@@ -4,7 +4,7 @@ def my_collect(collection)
 
   while i < collection.length
 
-    x << yeild(collection[i])
+    x << yield(collection[i])
     i += 1
   end
 x
