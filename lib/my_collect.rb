@@ -1,8 +1,11 @@
-def collect(collection)
+def my_collect(collection)
   i = 0
+  x = []
+
   while i < collection.length
 
-    yield(collection[i])
+    x << yeild(collection[i])
     i += 1
   end
-  collection
+x
+end
